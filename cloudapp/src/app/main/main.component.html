@@ -11,7 +11,7 @@
 
       <mat-form-field class="formfields" id="barcode">
         <mat-label>Item Barcode</mat-label>
-        <input matInput formControlName="barcode" (keydown.enter)="loadRecord()" (click)="clear()" cdkFocusInitial>
+        <input matInput formControlName="barcode" (keydown.enter)="loadRecord()" (keydown.tab)="loadRecord()" (click)="clear()" cdkFocusInitial>
         <mat-icon matSuffix>document_scanner</mat-icon>
         <mat-hint></mat-hint>
       </mat-form-field>
