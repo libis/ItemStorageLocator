@@ -11,8 +11,10 @@ The Item Storage Locator Cloud App, developed at KU Leuven Libraries - LIBIS, of
 ### User guide
 
 #### Start: Scan item to collection Alma item record
-To start a new workflow, tap on the 'Item Barcode' input field to enter the item barcode. Item barcodes may be entered automatically using a barcode scanner or added manually by typing the barcode into the input box. Press enter or tab to start the item lookup. After the barcode has been entered, the Cloud App will perform an Alma API lookup to retrieve the corresponding Alma item record. 
+To start a new workflow, tap on the 'Item Barcode' input field to enter the item barcode. Item barcodes may be entered automatically using a barcode scanner or added manually by typing the barcode into the input box. Press enter or tab to start the item lookup. After the barcode has been entered, the Cloud App will perform an Alma API lookup to retrieve the corresponding Alma item record.
+
 *Note: when using a barcode scanner, you should configure you barcode scanner to output either an 'enter' or a 'tab' signal upon scanning the barcode.*
+
 *Note: on some mobile devices (tablets, smartphones,...) the 'Enter' button does not always return a standard 'enter' signal. Use the 'tab' button to avoid this issue.*
 
 If the record is found, the item callnumber will appear in the top right corner of the input form, directly above the barcode field. The barcode will remain visible until clear using the 'Clear' button or until the barcode input field is tapped to signal the start of a new lookup. If the Cloud Apps fails to retrieve the record, e.g. because the barcode is not registered correctly in Alma, an error message will in the message area below the 'Check' and 'Set' buttons.
